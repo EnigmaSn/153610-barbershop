@@ -1,6 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Анна Пономарёва](https://up.htmlacademy.ru/htmlcss/14/user/153610).
+* Наставник: [Никита Рогатнев](https://htmlacademy.ru/profile/id86119).
 
 ---
 
