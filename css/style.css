@@ -17,11 +17,42 @@ h3 {
 	line-height: 30px;
 }
 
+a {
+  text-decoration: none;
+}
+
 li {
   list-style-type: none;
 }
 
+.product-category {
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: none;
+  display: block;
+}
+
+.product-name {
+  font-size: 14px;
+  line-height: 18px;
+  display: block;
+}
+
+.buy a {
+  color: #ffffff;
+  background-color: #000000;
+}
+.product-price {
+  background-color: #e5e5e5;
+}
+
 /* Сетки */
+
+.main-navigation li {
+  display: inline;
+  padding-right: 20px;
+  margin: 0;
+}
 
 .clearfix::after {
 	content:"";
@@ -81,6 +112,11 @@ li {
   width: 300px;
 }
 
+.gallery-content {
+  margin-left: 0;
+  border: 7px solid #ffffff;
+}
+
 .contacts {
   float: left;
   width: 380px;
@@ -91,11 +127,71 @@ li {
   width: 300px;
 }
 
+.bread-crumbs li {
+  display: inline;
+  padding-right: 20px;
+}
+
+.bread-crumbs ul {
+  padding-left: 0;
+} 
+
+.form-sort {
+  float: left;
+  width: 220px;
+  margin-right: 20px;
+}
+
+.form-sort-but {
+  color: #ffffff;
+  background-color: #000000;
+} 
+
+.catalog {
+  float: right;
+  width: 700px;
+}
+
+.catalog-nav {
+  margin-top: 45px;
+}
+
+.item {
+  width: 220px;
+  float: left;
+  margin-right: 20px;
+}
+
+.item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.item-photo {
+  width: 460px;
+  float: left;
+  margin-right: 90px;
+}
+
+.good-info {
+  width: 390px;
+  float: right;
+}
+
+
+
+
+/* Футер*/
 .main-footer {
   margin-top: 65px;
   padding-top: 60px;
   padding-bottom: 40px;
 }
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+/* почему маргин топ сохранился?*/
 
 .footer-contacts {
   float: left;
@@ -112,6 +208,10 @@ li {
 .footer-copyright {
   float: right;
   width: 180px;
+}
+
+.how-found {
+  text-decoration: underline;
 }
 /*======================================
  Системное оформление - не изменять
