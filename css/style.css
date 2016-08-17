@@ -17,6 +17,11 @@ h3 {
 	line-height: 30px;
 }
 
+p {
+  font-size: 14px;
+  line-height: 24px;
+}
+
 a {
   text-decoration: none;
 }
@@ -41,17 +46,61 @@ li {
 .buy a {
   color: #ffffff;
   background-color: #000000;
-}
-.product-price {
-  background-color: #e5e5e5;
+  padding: 10px;
 }
 
+input[type=button] {
+  padding: 10px;
+  width: 110px;
+}
+
+.appointment-form input[type=button] {
+  width: 100%;
+}
+
+.product-price {
+  background-color: #e5e5e5;
+  padding: 10px;
+}
+
+.features-item h2 {
+  font-size: 30px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.features-item p {
+  text-align: center;
+}
+
+.news-preview {
+  padding-left: 0;
+}
+
+time {
+  line-height: auto;
+}
+
+.news-preview li {
+  margin-bottom: 30px;
+}
 /* Сетки */
+
+* {
+  box-sizing: border-box;
+}
 
 .main-navigation li {
   display: inline;
   padding-right: 20px;
   margin: 0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.user-block {
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .clearfix::after {
@@ -117,9 +166,31 @@ li {
   border: 7px solid #ffffff;
 }
 
+.btn {
+  background-color: #000000;
+  color: #ffffff;
+  margin-right: 20px;
+  padding: 10px;
+}
+
+.gallery-prev {
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 20px;
+}
+
+.gallery-next {
+  font-size: 14px;
+  line-height: 24px;
+}
+
 .contacts {
   float: left;
   width: 380px;
+}
+
+.contacts p {
+  margin-bottom: 30px;
 }
 
 .appointment {
@@ -142,6 +213,10 @@ li {
   margin-right: 20px;
 }
 
+.form-sort ul {
+  padding-left: 0;
+}
+
 .form-sort-but {
   color: #ffffff;
   background-color: #000000;
@@ -160,6 +235,7 @@ li {
   width: 220px;
   float: left;
   margin-right: 20px;
+  padding-bottom: 10px;
 }
 
 .item:nth-child(3n) {
@@ -177,8 +253,19 @@ li {
   float: right;
 }
 
+.in-stock {
+  float: left;
+}
 
+.articul {
+  float: right;
+  color: #aeaeae; 
+}
 
+.price {
+  float: left;
+  background-color: #e5e5e5;
+}
 
 /* Футер*/
 .main-footer {
@@ -190,8 +277,8 @@ li {
 .footer {
   padding-top: 60px;
   padding-bottom: 40px;
+  vertical-align: top;
 }
-/* почему маргин топ сохранился?*/
 
 .footer-contacts {
   float: left;
@@ -203,11 +290,13 @@ li {
   float: left;
   width: 180px;
   margin-right: 60px;
+  text-align: center;
 }
 
 .footer-copyright {
   float: right;
   width: 180px;
+  text-align: center;
 }
 
 .how-found {
