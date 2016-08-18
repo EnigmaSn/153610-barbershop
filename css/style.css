@@ -14,7 +14,7 @@ body {
 }
 
 .index-body {
-  background: #070707 url(../img/index-back.jpg);
+  background: #070707 url(../img/index-back.png);
 }
 
 h2 {
@@ -79,10 +79,9 @@ input[type=button] {
 .features-item h2 {
   font-size: 30px;
   line-height: 42px;
-  text-align: center; /* почему слетело? */
 }
 
-.features-item p {
+.features-item {
   text-align: center;
 }
 
@@ -108,6 +107,7 @@ time {
 }
 
 .user-block {
+  display: inline;
   font-size: 16px;
   line-height: 20px;
 }
@@ -135,6 +135,7 @@ time {
 
 .main-header {
   margin-bottom: 60px;
+  background-color: #000000;
 }
 
 .index-logo {
@@ -222,6 +223,10 @@ time {
   margin-right: 20px;
 }
 
+.form-sort input {
+  margin-right: 20px;
+}
+
 .form-sort ul {
   padding-left: 0;
 }
@@ -306,12 +311,21 @@ time {
   width: 180px;
   margin-right: 60px;
   text-align: center;
+  margin-top: -15px;
 }
 
 .footer-copyright {
   float: right;
   width: 180px;
   text-align: center;
+  box-sizing: border-box;
+  margin-top: -15px;
+}
+
+.footer-copyright a {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .how-found {
