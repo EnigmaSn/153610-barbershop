@@ -1,9 +1,15 @@
+@font-face {
+font-family: "ptsansnarrow";
+src: url("ptsansnarrow.woff2") format("woff2"),
+url("ptsansnarrow.woff") format("woff");
+}
+
 body {
 	font-size: 14px;
 	line-height: 24px;
 	color: #000000;
 	font-weight: bold;
-	font-family: "PTSansNarrow", "Arial", "Serif" url("../fonts/PTSansNarrow.ttf");
+	font-family: "PTSansNarrow", "Arial", "Serif";
 	text-transform: uppercase;
 }
 
@@ -46,27 +52,30 @@ li {
 .buy a {
   color: #ffffff;
   background-color: #000000;
-  padding: 10px;
-}
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;}
 
 input[type=button] {
-  padding: 10px;
-  width: 110px;
+  padding: 10px 40px;
+  /*width: 140px;*/
 }
 
-.appointment-form input[type=button] {
-  width: 100%;
-}
+/*.appointment-form input[type=button] {
+  width: 140px;
+}*/
 
 .product-price {
   background-color: #e5e5e5;
-  padding: 10px;
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;}
 }
 
 .features-item h2 {
   font-size: 30px;
   line-height: 42px;
-  text-align: center;
+  text-align: center; /* почему слетело? */
 }
 
 .features-item p {
@@ -85,10 +94,6 @@ time {
   margin-bottom: 30px;
 }
 /* Сетки */
-
-* {
-  box-sizing: border-box;
-}
 
 .main-navigation li {
   display: inline;
@@ -222,6 +227,10 @@ time {
   background-color: #000000;
 } 
 
+.buy {
+  border-size: border-box;
+}
+
 .catalog {
   float: right;
   width: 700px;
@@ -235,7 +244,9 @@ time {
   width: 220px;
   float: left;
   margin-right: 20px;
-  padding-bottom: 10px;
+  padding-top: 20px;
+  background-color: #eeeeee;
+  box-sizing: border-box;
 }
 
 .item:nth-child(3n) {
